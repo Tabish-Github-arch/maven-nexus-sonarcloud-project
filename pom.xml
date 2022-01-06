@@ -35,4 +35,11 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>devops-learning</id>
+      <name>CI testing</name>
+      <url>http://172.29.172.79:8081/repository/devops-learning/</url>
+    </repository>
+  </distributionManagement>
 </project>
